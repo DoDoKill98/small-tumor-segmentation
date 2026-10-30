@@ -1,0 +1,14 @@
+{
+  "python": "3.12.0 (tags/v3.12.0:0fb18b0, Oct  2 2023, 13:03:39) [MSC v.1935 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "nnunet_commit": "1489d746e084459581ff20382c1241d8cc2eb258",
+  "packages": {
+    "nnunetv2": "2.8.1",
+    "torch": "2.11.0+cu128",
+    "numpy": "1.26.2",
+    "nibabel": "5.4.2",
+    "SimpleITK": "2.5.6",
+    "batchgenerators": "0.25.5",
+    "dynamic-network-architectures": "0.4.4"
+  }
+}

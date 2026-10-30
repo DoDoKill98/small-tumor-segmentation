@@ -1,0 +1,14 @@
+{
+  "dataset_id": 6,
+  "dataset_name": "Dataset006_Lung",
+  "configuration": "3d_fullres",
+  "planner": "ExperimentPlanner",
+  "plans_name": "nnUNetPlans_6GB",
+  "gpu_memory_target_gb": 6,
+  "preprocessing_processes": 2,
+  "cross_validation_folds": 5,
+  "split_seed": 12345,
+  "training_seed": null,
+  "status": "raw_converted_and_verified_preprocessing_pending",
+  "note": "Fixed folds do not guarantee deterministic training. Separate output roots are required for repeated runs."
+}
