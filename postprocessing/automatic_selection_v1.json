@@ -1,0 +1,14 @@
+{
+  "coarse_spacing_mm": 3.0,
+  "body_threshold_hu": -500,
+  "lung_threshold_hu": -450,
+  "body_closing_iterations": 2,
+  "lung_component_min_fraction": 0.15,
+  "max_lung_components": 2,
+  "minimum_lung_volume_ml": 100.0,
+  "maximum_lung_volume_ml": 12000.0,
+  "lung_margin_mm": 10.0,
+  "score_weights": {"within_margin": 0.7, "within_lung": 0.2, "relative_volume": 0.1},
+  "minimum_score": 0.5,
+  "minimum_score_gap": 0.15
+}
