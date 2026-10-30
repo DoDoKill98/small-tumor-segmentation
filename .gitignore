@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+Datasets/
+outputs/
+*.nii
+*.nii.gz
+*.tar
+*.pth
+*.pt
+*.safetensors
+
+*.joblib
+*.npz
+*.npy
+*.pkl
+*.log
+.env
+.env.*
+!.env.example
+
+# Generated reports and local environment inventory stay local.
+/dataset_audit.json
+/postprocessing/reports/
+/configs/nnunet/installed-packages.txt
